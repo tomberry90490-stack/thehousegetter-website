@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Your Cash Offer | Sell Your House As-Is in DC &amp; Maryland</title>
+  <meta name="description" content="Tell us about your house and get a fair, no-obligation cash offer within 24 hours. No fees, no repairs, close on your timeline.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="sell">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero hero-small" style="--hero-img:url('https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=2000&q=80')">
+      <div class="container">
+        <span class="eyebrow" style="color:var(--gold)">Sell your house</span>
+        <h1>Get a fair cash offer in <em>24 hours</em></h1>
+        <p class="lead">Tell us about your property and your goals. We'll come back with a clear, written, no-obligation offer.</p>
+        <div class="hero-badges">
+          <span><span data-icon="check"></span>No fees or commissions</span>
+          <span><span data-icon="check"></span>No repairs or cleaning</span>
+          <span><span data-icon="check"></span>Close when you want</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="offer">
+      <div class="container layout-form">
+        <form class="form-card" data-form="seller" data-success="Thank you! We've received your property details. A member of our team will contact you within 24 hours with your cash offer.">
+          <fieldset>
+            <legend>Your property</legend>
+            <div class="form-grid">
+              <div class="full"><label for="address">Street address <span class="req">*</span></label><input id="address" name="address" required autocomplete="street-address"></div>
+              <div><label for="city">City <span class="req">*</span></label><input id="city" name="city" required autocomplete="address-level2"></div>
+              <div class="form-grid" style="gap:16px">
+                <div><label for="state">State <span class="req">*</span></label><input id="state" name="state" required maxlength="2" placeholder="DC or MD" autocomplete="address-level1"></div>
+                <div><label for="zip">ZIP <span class="req">*</span></label><input id="zip" name="zip" required inputmode="numeric" maxlength="10" autocomplete="postal-code"></div>
+              </div>
+              <div>
+                <label for="propertyType">Property type</label>
+                <select id="propertyType" name="propertyType">
+                  <option>Single-family house</option><option>Multi-family (2–4 units)</option><option>Condo / Townhouse</option><option>Mobile home</option><option>Land / Lot</option><option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="condition">Condition</label>
+                <select id="condition" name="condition">
+                  <option>Move-in ready</option><option>Needs minor repairs</option><option>Needs major repairs</option><option>Uninhabitable / Tear-down</option><option>Not sure</option>
+                </select>
+              </div>
+              <div>
+                <label for="occupancy">Currently</label>
+                <select id="occupancy" name="occupancy">
+                  <option>Owner-occupied</option><option>Rented (tenant in place)</option><option>Vacant</option>
+                </select>
+              </div>
+              <div><label for="beds">Beds / baths (optional)</label><input id="beds" name="bedsBaths" placeholder="e.g. 3 bd / 2 ba"></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your goals</legend>
+            <div class="form-grid">
+              <div>
+                <label for="timeline">When do you want to sell?</label>
+                <select id="timeline" name="timeline">
+                  <option>As soon as possible</option><option>Within 30 days</option><option>1–3 months</option><option>3+ months</option><option>Just exploring options</option>
+                </select>
+              </div>
+              <div>
+                <label for="reason">Reason for selling</label>
+                <select id="reason" name="reason">
+                  <option>Prefer not to say</option><option>Inherited property</option><option>Behind on payments / foreclosure</option><option>Relocating</option><option>Tired landlord</option><option>Repairs too expensive</option><option>Divorce</option><option>Downsizing</option><option>Other</option>
+                </select>
+              </div>
+              <div class="full"><label for="notes">Anything else we should know? (optional)</label><textarea id="notes" name="notes" placeholder="Repairs needed, liens, your ideal closing date, asking price…"></textarea></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>How can we reach you?</legend>
+            <div class="form-grid">
+              <div><label for="firstName">First name <span class="req">*</span></label><input id="firstName" name="firstName" required autocomplete="given-name"></div>
+              <div><label for="lastName">Last name <span class="req">*</span></label><input id="lastName" name="lastName" required autocomplete="family-name"></div>
+              <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+              <div><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" required autocomplete="email"></div>
+            </div>
+          </fieldset>
+          <div class="consent-block">
+            <label class="consent"><input type="checkbox" name="smsConsentInfo" data-consent> <span>By checking this box, I consent to receive text messages and phone calls from <span data-c="legalName"></span> (<span data-c="company"></span>) regarding my inquiry, including automated messages. Message frequency varies. Message &amp; data rates may apply. Reply HELP for help or STOP to opt out at any time. Consent is not a condition of any purchase or sale.</span></label>
+            <label class="consent"><input type="checkbox" name="smsConsentMarketing" data-consent> <span>By checking this box, I consent to receive marketing and promotional messages from <span data-c="legalName"></span> (<span data-c="company"></span>), including special offers and updates. Message frequency varies. Message &amp; data rates may apply. Reply HELP for help or STOP to opt out at any time.</span></label>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit" style="margin-top:22px">Get My Cash Offer</button>
+          <div class="form-msg" role="status"></div>
+          <p class="form-links"><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </form>
+
+        <aside class="side-panel">
+          <div class="card">
+            <h3 style="margin-top:0">What happens next?</h3>
+            <ol class="mini-steps">
+              <li><div><strong>We review your info</strong>We look at your property and recent sales nearby.</div></li>
+              <li><div><strong>We call you</strong>A quick, friendly chat to understand your goals.</div></li>
+              <li><div><strong>You get a written offer</strong>Usually within 24 hours, with no obligation.</div></li>
+              <li><div><strong>You pick the closing date</strong>We close at a licensed title company and you get paid.</div></li>
+            </ol>
+          </div>
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=80" alt="House keys" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover" loading="lazy">
+          <div class="card">
+            <h3 style="margin-top:0">Prefer to talk?</h3>
+            <p>Call or text us — a real person will answer.</p>
+            <a data-href="tel" class="btn btn-outline btn-block" style="margin-top:14px"><span data-icon="phone"></span><span data-c="phone"></span></a>
+          </div>
+          <div class="disclosure">
+            <strong>Transparency notice:</strong> We are real estate investors, not licensed agents. We buy properties directly and may, in some cases, assign our purchase contract to another buyer. We'll always explain this before you sign.
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/main.js"></script>
+</body>
+</html>
