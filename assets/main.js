@@ -97,7 +97,7 @@ function renderFooter() {
       </div>
       <div class="footer-bottom">
         <p><strong>Disclosure:</strong> <span data-c="legalName"></span> is a real estate investment company. We are not licensed real estate agents or brokers and do not list properties or represent sellers. We purchase properties directly, and in some cases we may assign our purchase contract to another buyer or investor for a fee. Every seller is encouraged to consult an attorney or real estate professional before signing any agreement.</p>
-        <p>© <span data-year></span> <span data-c="legalName"></span>. All rights reserved. · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+        <p>© <span data-year></span> <span data-c="legalName"></span> d/b/a <span data-c="company"></span>. All rights reserved. · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
       </div>
     </div></footer>`;
 }
